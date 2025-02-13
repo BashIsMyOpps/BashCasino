@@ -30,11 +30,15 @@ slots(){
 			echo -n "   $b    "
 			sleep 1
 			echo -n "   $c    "
+			echo ""
+			echo ""
 			
 			if [[ ($a -eq 7) && ($b -eq 7) && ($c -eq 7) ]]; then
 				echo -n "Congratulations you won XXX money !!!"
+				echo ""
 			else 
 				echo -n "You lost"
+				echo ""
 			fi
 			;;
 	
